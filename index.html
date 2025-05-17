@@ -37,5 +37,16 @@
             </label>
         </div>
     </form>
+    <script>
+  // Mostrar el modal al cargar la página
+  window.onload = function() {
+    document.getElementById("miModal").style.display = "block";
+  }
+
+  // Cerrar el modal al hacer clic en la "X"
+  document.getElementById("cerrar").onclick = function() {
+    document.getElementById("miModal").style.display = "none";
+  }
+</script>
 </body>
 </html>
