@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <title>Mi página</title>
+    <link rel="shortcut icon" href="../HTML Intermedio/logo.png" type="image/jpg">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form> 
+        <h2>Hola Mundo</h2>
+    <fieldset>
+        <legend>Informacion Básica</legend><!--Input para poner el nombre y el email-->
+        <div class="Input-de-nombre">
+
+            <label for="Name">Nombre completo</label>
+            <input type="text" placeholder="Pon tu nombre" id="Name">
+        </div>
+        <div class="Input-de-nombre">
+            <label for="@">Email</label>
+            <input type="email" placeholder="Ponlo" id="@" >
+        </div>
+    </fieldset>
+        <!--Seleccionar una opcion-->
+        <div class="Input-de-nombre">
+            <select name="type-of-user" id="">
+            <option value="user1">Opción 1</option>
+            <option value="user2">Opción 2</option>
+            <option value="user3">Opción 3</option>
+            </select>
+        </div>
+        <div>
+            <label for="Chnace">Opinion</label>
+            <textarea class="TEXTAREA" rows="5" placeholder="Deja que te ha parecido la pagina para mejorar más" id="Chnace"></textarea>
+        </div>
+        <div>
+            <label> Acepto los terminos y condiciones
+            <input type="checkbox" class="check">
+            </label>
+        </div>
+    </form>
+</body>
+</html>
